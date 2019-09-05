@@ -1,0 +1,76 @@
+body {
+    background: #f5f5f5;
+}
+
+.yuan {
+    font-size: 16px;
+    color: #ff4400;
+    margin-right: 3px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.price {
+    font-size: 16px;
+    color: #ff4400;
+    font-weight: bold;
+}
+
+#hot_goods {
+    width: 1400px;
+    margin: 10px auto;
+}
+
+#hot_goods a {
+    text-decoration: none;
+}
+
+
+#hot_goods h3 {
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    color: #ff242d;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    background: white;
+    padding-left: 20px;
+}
+
+#hot_goods .hot_goods_body{
+
+
+}
+
+#hot_goods .hot_goods_body ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+#hot_goods .hot_goods_body ul li{
+    width: 276px;
+    height: 330px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: white;
+    padding: 5px;
+}
+
+#hot_goods .hot_goods_body ul li:nth-child(5n){
+    margin-right:0px;
+}
+
+#hot_goods .hot_goods_body img{
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#hot_goods .hot_goods_body ul p {
+    margin: 10px 5px;
+    font-size: 16px;
+    color: #666;
+    padding: 0 5px;
+}
