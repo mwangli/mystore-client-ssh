@@ -9,7 +9,7 @@
 
     <!--<constant name="struts.devMode" value="true"/>-->
 
-    <package name="mystore_ssh" namespace="/" extends="struts-default" >
+    <package name="mystore-client-ssh" namespace="/" extends="struts-default" >
 
         <action name="UserAction_*" class="userAction" method="{1}" >
             <result name="index">/index.jsp</result>
