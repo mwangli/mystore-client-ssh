@@ -1,12 +1,12 @@
 package com.lmw.beans;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import org.hibernate.annotations.Tables;
+
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
+@Table(name = "goods")
 public class Goods {
     private int gid;
     private String name;
